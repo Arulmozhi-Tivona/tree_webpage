@@ -1,0 +1,52 @@
+h1{
+    border:1px solid #00d0ff;
+    background-color:#00d0ff;
+    text-align: center;
+}
+
+img{
+    float:left;
+    width: 650px;
+    height: 550px;
+    padding: 20;
+}
+p{
+    padding:10 100 20 30;
+    line-height: 30pt;
+    color: rgba(0, 11, 6, 0.318);
+    font-style: italic;
+}
+.container
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+*
+{
+    box-sizing: border-box;
+}
+button
+{
+    background-color: rgb(6, 6, 37);
+    color: azure;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text],input[type=email], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
